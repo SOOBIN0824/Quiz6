@@ -1,0 +1,20 @@
+#foo한테 add_func(p1,p2), 리턴 두수 더한 결과, 파일명 : add.py~~
+from add import add_func
+
+#나는 sub_func(p1,p2) 리턴 두수 뺀 결과, 파일명 : sub.py~~
+
+from sub import sub_func
+
+## 함수
+
+
+## 변수
+
+num1, num2, res = 100, 200, 0
+
+##메인
+res = add_func(num1,mun2)
+print(res)
+
+res = sub_func(num1,num2)
+print(res)
